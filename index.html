@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>WeatherApp</title>
+</head>
+<body>
+<div class="container">
+    <div class="search-box">
+        <i id="lo" class="fa-solid fa-location-dot"></i>
+        <input type="text" placeholder="Enter Your Location">
+        <button><i class="fa-solid fa-magnifying-glass-location"></i></button>
+    </div>
+    <div class="error">
+        <p>Invalid City Name</p>
+    </div>
+    <div class="weather-box">
+        <div class="box">
+            <div class="info-weather">
+                <div class="weather">
+                    <img class="weather-icon" src="images/clouds.png" alt="">
+                    <p class="temperature">0<span>°C</span></p>
+                    <p class="description">New Yourk</p>
+                </div>
+            </div>
+        </div>
+        
+</div>
+<div class="weather-det">
+    <div class="humidity">
+        <i class="fa-solid fa-water"></i>
+       <div class="text">
+        <div class="info-humidity">
+            <span>0%</span>
+        </div>
+        <p>Humidity</p>
+       </div>
+    </div>
+    <div class="wind">
+        <i class="fa-solid fa-wind"></i>
+       <div class="text">
+        <div class="info-wind">
+            <span>0km/h</span>
+        </div>
+        <p>Wind Speed</p>
+       </div>
+    </div>
+</div>
+</div>
+    <script src="main.js"></script>
+</body>
+</html>
